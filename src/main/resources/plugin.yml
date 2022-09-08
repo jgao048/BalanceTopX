@@ -1,0 +1,8 @@
+name: BalanceTopX
+version: ${project.version}
+main: dev.failures.balancetopx.BalanceTopX
+api-version: 1.16
+depend: [ Vault ]
+commands:
+  baltop:
+    description: Brings up GUI Menu of top balances.
